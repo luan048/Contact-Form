@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/0074fadf6f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form">
+        <h1> Contact Us</h1>
+        <div class="elements">
+            <div class="first-name">
+                <label class="name1">First Name *</label>
+                <input type="text" class="name-first" id="name-first">
+            </div>
+            <span class="mensag-fault" id="mensag-fault">The field is required</span>
+
+            <div class="last-name">
+                <label class="name2">Last Name *</label>
+                <input type="text" class="name-last" id="name-last">
+            </div>
+            <span class="mensag-fault2" id="mensag-fault2">The field is required</span>
+
+            <div class="email" id="email">
+                <label class="email-address">Email Address *</label>
+                <input type="text" class="address-email" id="address-email">
+                <span class="mensag-faultEmail" id="mensag-faultEmail">Please enter a valid email address</span>
+            </div>
+
+            <div class="query-type">
+                <label class="query">Query Type *</label>
+                <div class="container-box">
+                    <div class="box1" onclick="boxGeneral()" id="box1">
+                        <i class="fa-regular fa-circle" id="output"></i> <img src="images/icon-radio-selected.svg" class="button-check" id="button-check"><label>General Enquiry</label> <!--DEVO ADD UM BOTÃO COM IMG, E ADD REMOVE E ADD NO JS-->
+                    </div>
+
+                    <div class="box2" onclick="boxGeneral2()" id="box2">
+                        <i class="fa-regular fa-circle" id="input"></i> <img src="images/icon-radio-selected.svg" class="button-check2" id="button-check2"><label>Support Request</label>
+                    </div>
+
+                    <span class="mensag-faultBox" id="mensag-faultBox">Please select a query type</span>
+                </div>
+            </div>
+
+            <div class="message" id="message">
+                <label class="mensage">Message *</label> <!--É preciso adicionar as linhas para formatação do Message-->
+                <textarea name="mensagem" class="input-message" id="input-message"></textarea>
+            </div>
+            <span class="mensag-fault3" id="mensag-fault3">The field is required</span>
+
+            <div class="contacted">
+                <i class="fa-regular fa-square" id="fa-square" onclick="consentContacted()"></i> <img src="images/icon-checkbox-check.svg" class="consent-check" id="consent-contacted" onclick="consentContacted2()"><label class="being-contacted">I hereby consent to being contacted by the team *</label>
+            </div>
+            <span class="message-faultContacted" id="message-faultContacted">To submit this form, please consent to being contacted</span>
+
+            <button id="button-submit">Submit</button>
+        </div>
+    </form>
+
+    <div class="messageSucessfull" id="messageSucessfull">
+        <div class="elements">
+            <i class="fa-regular fa-circle-check"></i><span class="messageSent">Message Sent!</span> <br>
+            <span class="thanks">Thanks for  completing the form. We'll bo in touch soon!</span>
+    </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

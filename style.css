@@ -1,0 +1,350 @@
+body{
+    background-color: #e0f1e7;
+}
+/*Inicio formulário*/
+form{
+    background-color: #ffffff;
+    width: 743px;
+    height: 790px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+form h1{
+    padding-left: 44px;
+    padding-top: 40px;
+    margin-bottom: 30px;
+    font-family: 'Karla', sans-serif;
+}
+/*Fim formulário*/
+.elements {
+    margin-top: 5px;
+}
+/*Usuário 1*/
+.first-name{
+    padding-right: 15px;
+}
+
+.mensag-fault {
+    position: absolute;
+    font-family: 'Karla', sans-serif;
+    font-size: 13px;
+    padding-right: 15px;
+    padding-top: 5px;
+    color: red;
+}
+
+.mensag-fault2 {
+    position: absolute;
+    font-family: 'Karla', sans-serif;
+    font-size: 13px;
+    color: red;
+    padding-left: 325px;
+    padding-top: 4px;
+}
+
+.name1 {
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+}
+
+.name-first{
+    display: block;
+    margin-top: 10px;
+    width: 45%;
+    height: 36px;
+    border-radius: 10px;
+    border: 2px solid #949e9d;
+    cursor: pointer;
+    outline-width: 2px; /*Aumenta border quando já selecionado*/
+    outline-color: #306d5d; /*Dá cor ao border, quando já selecionado*/
+    font-size: 17px;
+}
+
+/*Fim usuário 1*/
+
+/*Inicio usuário 2*/
+
+.last-name{
+    padding-right: 66px;
+    float: right;
+    margin-top: -71px;
+    width: 46%;
+    margin-right: -10px;
+}
+
+.name2 {
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+}
+
+.name-last {
+    display: block;
+    margin-top: 10px;
+    width: 104%;
+    border-radius: 10px;
+    height: 37px;
+    border: 2px solid #949e9d;
+    outline-width: 2px;
+    outline-color: #306d5d;
+    font-size: 17px;
+    cursor: pointer;
+}
+/*Fim usuário 2*/
+
+/*Inicio email*/
+
+.email{
+    padding-right: 15px;
+    margin-top: 25px;
+}
+
+.email-address {
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+}
+
+.address-email {
+    margin-top: 10px;
+    display: block;
+    width: 96%;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #949e9d;
+    outline-width: 2px;
+    outline-color: #306d5d;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.mensag-faultEmail {
+    font-family: 'Karla', sans-serif;
+    font-size: 13px;
+    color: red;
+    display: none;
+}
+/*Fim email*/
+
+/*Quest*/
+
+.query-type{
+    padding-right: 15px;
+    padding-top: 18px;
+    padding-bottom: 20px;
+}
+
+.query{
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+}
+
+/*Fim Quest*/
+
+/*Inicio box*/
+
+.box1{
+    margin-top: 20px;
+    width: 45.7%;
+    height: 37px;
+    border: 2px solid black;
+    border-radius: 10px;
+    border: 2px solid #949e9d;
+    cursor: pointer; /*Deixa o box clicável*/
+}
+
+.box1 label{
+    float: left;
+    margin-top: 9px;
+    margin-left: 50px;
+    font-family: 'Karla', sans-serif;
+}
+
+.box1 i{
+    margin-left: -145px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #949e9d;
+}
+
+.button-check{
+    display: none;
+    margin-left: -145px;
+    margin-top: 8px;
+}
+
+.button-check2{
+    display: none;
+    margin-left: -147px;
+    margin-top: 8px;
+}
+
+.box2 {
+    float: right;
+    width: 50%;
+    height: 37px;
+    border: 2px solid black;
+    margin-top: -39.1px;
+    border-radius: 10px;
+    margin-right: 19px;
+    border: 2px solid #949e9d;
+    cursor: pointer;
+}
+
+.box2 label{
+    float: left;
+    margin-top: 10px;
+    margin-left: 45px;
+    font-family: 'Karla', sans-serif;
+}
+
+.box2 i{
+    margin-left: -145px;
+    margin-top: 11px;
+    color: #949e9d;
+}
+
+.mensag-faultBox {
+    font-family: 'Karla', sans-serif;
+    font-size: 13px;
+    color: red;
+    position: absolute;
+    margin-top: 15px;
+    display: none ;
+}
+
+/*Fim do Box*/
+
+/*Message*/
+
+.message{
+    padding-right: 15px;
+    margin-top: 10px;
+}
+
+.mensage{
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+}
+
+.input-message {
+    display: block;
+    width: 96%;
+    height: 100px;
+    margin-top: 10px;
+    resize: none; /*Impede que o usuário aumente*/
+    overflow-wrap: break-word; /* Quebra as palavras longas */
+    white-space: pre-wrap; /* Mantém os espaços em branco e as quebras de linha */
+    font-size: 19px;
+    font-family: 'Karla', sans-serif;
+    border: 2px solid #949d9c;
+}
+
+.mensag-fault3 {
+    font-family: 'Karla', sans-serif;
+    font-size: 13px;
+    position: absolute;
+    margin-top: 12px;
+    padding-right: 15px;
+    color: red;
+    display: none;
+}
+
+/*Finald Message*/
+
+/*Init Contacted*/
+.contacted{
+    padding-right: 15px;
+    margin-top: 50px;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+}
+
+.being-contacted{
+    margin-left: 6px;
+}
+
+.fa-square{
+    cursor: pointer;
+}
+
+.consent-check{
+    width: 16px;
+    display: none;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+.message-faultContacted {
+    padding-right: 15px;
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    color: red;
+    position: absolute;
+    margin-top: 15px;
+    display: none;
+}
+
+/*Finald Message*/
+
+button{
+    background-color: #0c7d69;
+    color: #edffff;
+    width: 95%;
+    height: 60px;
+    border-radius: 10px;
+    margin-right: 40px;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+    margin-top: 45px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    background-color: #063f36;
+}
+
+.messageSucessfull {
+    width: 450px;
+    height: 100px;
+    background-color: #2a4244;
+    margin: auto;
+    margin-top: -1000px;
+    position: relative;
+    z-index: 100000;
+    border-radius: 15px;
+    opacity: 0;
+    visibility: hidden; /*display none não deixa o transition funcionar*/
+    transition: opacity 0.5s, margin-top 0.5s; /*Esse margin-top faz o margin-top funcionar com 0.5s*/
+}
+
+.messageSucessfull.show { /*Faz o message aparecer dnv*/
+    opacity: 1;
+    visibility: visible;
+    margin-top: -870px;
+}
+
+.elements {
+    padding-left: 45px;
+    padding-top: 25px;
+}
+
+.messageSent {
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #f8ffff;
+    margin-left: 5px;
+}
+
+.thanks {
+    font-family: 'Karla', sans-serif;
+    color: #e1f9fb;
+    font-size: 14px;
+}
+
+.fa-circle-check {
+    font-size: 20px;
+    color: #f8ffff;
+}
