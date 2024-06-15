@@ -1,4 +1,4 @@
-# Restaurant Reservation System - API
+# Contact Form
 
 Resolution of the challenge! Completed the Contact Form challenge with all requested functionality.
 
